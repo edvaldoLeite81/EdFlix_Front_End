@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Bootstrap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="mb-5" style="background-color: #111;">
+    <div class="bg-secondary">
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand logo mr-5" href="#">
+                ED |>lay
+            </a>
+
+            <button id="btnMenu" class="navbar-toggler btnMenu" type="button" data-toggle="collapse"
+                data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false"
+                aria-label="Alterna navegação">
+                Menu
+            </button>
+
+            <div class="collapse navbar-collapse text-light" id="conteudoNavbarSuportado">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link menu" href="#">Home<span class="sr-only">(página atual)</span></a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link menu" href="cadastro.html">Cadastrar Filme<span class="sr-only">(página atual)</span></a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle menu" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Categorias
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Ação e Aventura</a>
+                            <a class="dropdown-item" href="#">Comédia</a>
+                            <a class="dropdown-item" href="#">Suspense</a>
+                            <a class="dropdown-item" href="#">Documentário</a>
+                        </div>
+                    </li>
+
+                </ul>
+
+                <form class="form-inline my-2 my-lg-0 menu logo">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Pesquise" aria-label="Pesquisar">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+                </form>
+
+            </div>
+        </nav>
+    </div>
+
+    <div class="container mt-5">
+        <div>
+            <hr class="line">
+
+            <div id="arrowUp" class="container"
+                style="float: right; margin-top:30%;margin-left:76%; position: fixed;  z-index: 9999; cursor: pointer; display:none;">
+                <img src="./img/upArrow.png" alt="">
+            </div>
+
+            <div class="row">
+
+                <div class="col-sm-6 col-md-4 col-lg-3 mt-5">
+                    <a href="detail.html" style="text-decoration: none;">
+                        <div class="card cardZoom">
+                            <img class="card-img-top"
+                                src="https://docs.google.com/uc?id=1osOjYxoD82iy59m1zmlqRWOxbq7fPtmI"
+                                alt="Imagem de capa do card">
+                            <div class="card-body">
+                                <h6 class="card-title titleCard titleCard"><strong>Roubo Nas Alturas</strong></h6>
+
+                                <p class="yearDuration">
+                                    <img style="max-width:25px; max-height: 25px;" src="./img/12.jpg"
+                                        alt="Imagem de capa do card">
+                                    2011 | 1h44m
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 mt-5">
+                    <a href="motoq.html" style="text-decoration: none;">
+                        <div class="card cardZoom">
+                            <img class="card-img-top"
+                                src="https://docs.google.com/uc?id=1K2HEWVDrWQkOVcVSpSQeJqcq4YDNgeO-"
+                                alt="Imagem de capa do card">
+                            <div class="card-body">
+                                <h6 class="card-title titleCard"><strong>Motoqueiros Selvagens</strong></h6>
+                                <p class="yearDuration">
+                                    <img style="max-width:25px; max-height: 25px;" src="./img/12.jpg"
+                                        alt="Imagem de capa do card">
+                                    2007 | 1h41m
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 mt-5">
+                    <div class="card cardZoom">
+                        <img class="card-img-top " src="https://docs.google.com/uc?id=1DiowtDTy6AlNLi0no4wwjYwyqvGiTiWP"
+                            alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h6 class="card-title titleCard"><strong>Bad Boys II</strong></h6>
+                            <p class="yearDuration">
+                                <img style="max-width:25px; max-height: 25px;" src="./img/16.jpg"
+                                    alt="Imagem de capa do card">
+                                2003 | 2h27m
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 mt-5">
+                    <div class="card cardZoom">
+                        <img class="card-img-top" src="https://docs.google.com/uc?id=1eLQOQ_rzScvCmQlSTnqWTROSm0MH7uxm"
+                            alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h6 class="card-title titleCard"><strong>À Procura da Felicidade</strong></h6>
+                            <p class="yearDuration">
+                                <img style="max-width:25px; max-height: 25px;" src="./img/livre.jpeg"
+                                    alt="Imagem de capa do card">
+                                2007 | 1h58m
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 mt-5">
+                    <div class="card cardZoom">
+                        <img class="card-img-top" src="https://docs.google.com/uc?id=1eLQOQ_rzScvCmQlSTnqWTROSm0MH7uxm"
+                            alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h6 class="card-title titleCard"><strong>À Procura da Felicidade</strong></h6>
+                            <p class="yearDuration">
+                                <img style="max-width:25px; max-height: 25px;" src="./img/livre.jpeg"
+                                    alt="Imagem de capa do card">
+                                2007 | 1h58m
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 mt-5">
+                    <div class="card cardZoom">
+                        <img class="card-img-top" src="https://docs.google.com/uc?id=1K2HEWVDrWQkOVcVSpSQeJqcq4YDNgeO-"
+                            alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h6 class="card-title titleCard"><strong>Motoqueiros Selvagens</strong></h6>
+                            <p class="yearDuration">
+                                <img style="max-width:25px; max-height: 25px;" src="./img/12.jpg"
+                                    alt="Imagem de capa do card">
+                                2007 | 1h41m
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 mt-5">
+                    <div class="card cardZoom">
+                        <img class="card-img-top" src="https://docs.google.com/uc?id=1osOjYxoD82iy59m1zmlqRWOxbq7fPtmI"
+                            alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h6 class="card-title titleCard titleCard"><strong>Roubo Nas Alturas</strong></h6>
+
+                            <p class="yearDuration">
+                                <img style="max-width:25px; max-height: 25px;" src="./img/12.jpg"
+                                    alt="Imagem de capa do card">
+                                2011 | 1h44m
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 mt-5">
+                    <div class="card cardZoom">
+                        <img class="card-img-top" src="https://docs.google.com/uc?id=1K2HEWVDrWQkOVcVSpSQeJqcq4YDNgeO-"
+                            alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h6 class="card-title titleCard"><strong>Motoqueiros Selvagens</strong></h6>
+                            <p class="yearDuration">
+                                <img style="max-width:25px; max-height: 25px;" src="./img/12.jpg"
+                                    alt="Imagem de capa do card">
+                                2007 | 1h41m
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 mt-5">
+                    <div class="card cardZoom">
+                        <img class="card-img-top" src="https://docs.google.com/uc?id=1eLQOQ_rzScvCmQlSTnqWTROSm0MH7uxm"
+                            alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h6 class="card-title titleCard"><strong>À Procura da Felicidade</strong></h6>
+                            <p class="yearDuration">
+                                <img style="max-width:25px; max-height: 25px;" src="./img/livre.jpeg"
+                                    alt="Imagem de capa do card">
+                                2007 | 1h58m
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 mt-5">
+                    <div class="card cardZoom">
+                        <img class="card-img-top " src="https://docs.google.com/uc?id=1DiowtDTy6AlNLi0no4wwjYwyqvGiTiWP"
+                            alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h6 class="card-title titleCard"><strong>Bad Boys II</strong></h6>
+                            <p class="yearDuration">
+                                <img style="max-width:25px; max-height: 25px;" src="./img/16.jpg"
+                                    alt="Imagem de capa do card">
+                                2003 | 2h27m
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 mt-5">
+                    <div class="card cardZoom">
+                        <img class="card-img-top" src="https://docs.google.com/uc?id=1eLQOQ_rzScvCmQlSTnqWTROSm0MH7uxm"
+                            alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h6 class="card-title titleCard"><strong>À Procura da Felicidade</strong></h6>
+                            <p class="yearDuration">
+                                <img style="max-width:25px; max-height: 25px;" src="./img/livre.jpeg"
+                                    alt="Imagem de capa do card">
+                                2007 | 1h58m
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 mt-5">
+                    <div class="card cardZoom">
+                        <img class="card-img-top" src="https://docs.google.com/uc?id=1eLQOQ_rzScvCmQlSTnqWTROSm0MH7uxm"
+                            alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h6 class="card-title titleCard"><strong>À Procura da Felicidade</strong></h6>
+                            <p class="yearDuration">
+                                <img style="max-width:25px; max-height: 25px;" src="./img/livre.jpeg"
+                                    alt="Imagem de capa do card">
+                                2007 | 1h58m
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 mt-5">
+                    <a href="detail.html" style="text-decoration: none;">
+                        <div class="card cardZoom">
+                            <img class="card-img-top"
+                                src="https://docs.google.com/uc?id=1K2HEWVDrWQkOVcVSpSQeJqcq4YDNgeO-"
+                                alt="Imagem de capa do card">
+                            <div class="card-body">
+                                <h6 class="card-title titleCard"><strong>Motoqueiros Selvagens</strong></h6>
+                                <p class="yearDuration">
+                                    <img style="max-width:25px; max-height: 25px;" src="./img/12.jpg"
+                                        alt="Imagem de capa do card">
+                                    2007 | 1h41m
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3 mt-5">
+                    <div class="card cardZoom">
+                        <img class="card-img-top " src="https://docs.google.com/uc?id=1DiowtDTy6AlNLi0no4wwjYwyqvGiTiWP"
+                            alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h6 class="card-title titleCard"><strong>Bad Boys II</strong></h6>
+                            <p class="yearDuration">
+                                <img style="max-width:25px; max-height: 25px;" src="./img/16.jpg"
+                                    alt="Imagem de capa do card">
+                                2003 | 2h27m
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer" align="center">
+                <div>
+                    <a class="navbar-brand logo" href="#">
+                        ED |>lay
+                    </a>
+                </div>
+
+                <div class="col-sm-12 col-md-12 col-lg-6 textFooter">
+                    <p>ED Play é um serviço pago baseado em assinatura e sujeito a termos e condições.</p>
+                    <p>O serviço ED Play é comercializado por ED Play Media Direct, World Trade Center, Av. Das Nações
+                        Unidas, 12.551 - Piso 10, São Paulo / SP - CEP 05528-010, Brasil e CNPJ 72.025.698/0004-48</p>
+                    <p> &copy; 2023 ED Play Media Direct, Todos os direitos reservados.</p>
+                </div>
+
+                <div>
+
+                </div>
+            </div>
+
+
+            <!-- meu script-->
+            <script src="./js/script.js"></script>
+
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+                integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+                crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+                integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+                crossorigin="anonymous"></script>
+
+</body>
+
+</html>

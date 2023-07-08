@@ -1,0 +1,308 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+.logo {
+    font-family: 'Righteous', cursive;
+    font-size: 30px;
+    font-weight: 700;
+    color: #28a745;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-left: 6.5%;
+    padding-right: 6.5%;
+    z-index: 9998;
+    transition: background-color 0.3s ease;
+    padding-bottom: 30px;
+}
+
+.navbar-scrolled {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.btnMenu {
+    border: 1px solid #fff;
+    color: #fff;
+    font-family: 'Righteous', cursive;
+    font-size: 90%;
+    padding: 10px 20px 10px 20px;
+}
+
+.btnMenu:hover {
+    background-color: #5aa255;
+    transition: background-color 0.3s ease;
+}
+
+.line {
+    color: #fff;
+    background-color: #555;
+    margin-top: 30px;
+    height: 0.5px;
+}
+
+body {
+    margin-top: 80px;
+
+}
+
+.menu {
+    font-family: 'Righteous', cursive;
+    text-transform: capitalize;
+    font-size: 90%;
+    color: rgb(246, 246, 246);
+    margin-right: 30px;
+}
+
+.card {
+    box-shadow: 2px 2px 18px 2px rgba(0, 0, 0, 0.8);
+}
+
+.cardZoom {
+    transition: transform 0.65s;
+    cursor: pointer;
+}
+
+.cardZoom:hover {
+    transform: scale(1.05);
+    border: 6px solid #cccccc;
+    border-radius: 10px;
+}
+
+.titleCard {
+    font-size: 12px;
+}
+
+.yearDuration {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.footer {
+    margin-top: 120px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #111;
+}
+
+.textFooter{
+    font-size: 11px;
+    color: #e0e0e0;
+}
+
+
+
+/*breakpoints*/
+
+/* Estilos para telas menores ou iguais a 480px */
+@media (max-width: 480px) and (max-width: 575px) {
+    .navbar {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        padding-left: 0%;
+        padding-right: 0%;
+        z-index: 9999;
+        transition: background-color 0.3s ease;
+        padding-bottom: 30px;
+    }
+}
+
+/* Estilos para telas menores ou iguais a 480px */
+@media (max-width: 575px) and (max-width: 601px) {
+    .navbar {
+        position: fixed;
+        top: 0;
+        width: 100%;
+       
+        z-index: 9999;
+        transition: background-color 0.3s ease;
+        padding-bottom: 30px;
+    }
+}
+
+/* Estilos para telas menores ou iguais a 590px */
+@media (max-width: 601px) and (max-width: 659px) {
+    .navbar {
+        position: fixed;
+        top: 0;
+        width: 100%;
+       
+        z-index: 9999;
+        transition: background-color 0.3s ease;
+        padding-bottom: 30px;
+    }
+}
+
+/* Estilos para telas entre 481px e 768px */
+@media (min-width: 660px) and (max-width: 690px) {
+    .navbar {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        padding-left: 12.5%;
+        padding-right: 12.5%;
+        z-index: 9999;
+        transition: background-color 0.3s ease;
+        padding-bottom: 30px;
+    }
+}
+
+
+/* Estilos para telas entre 481px e 768px */
+@media (min-width: 701px) and (max-width: 768px) {
+    .navbar {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        padding-left: 16%;
+        padding-right: 16%;
+        z-index: 9999;
+        transition: background-color 0.3s ease;
+        padding-bottom: 30px;
+    }
+}
+
+/* Estilos para telas maiores que 768px */
+@media (min-width: 768px) {
+    .navbar {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+        z-index: 9999;
+        transition: background-color 0.3s ease;
+        padding-bottom: 30px;
+    }
+
+    /* Estilos para telas maiores que 775px */
+    @media (min-width: 776px) {
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            padding-left: 8%;
+            padding-right: 8%;
+            z-index: 9999;
+            transition: background-color 0.3s ease;
+            padding-bottom: 30px;
+        }
+    }
+
+    /* Estilos para telas maiores que 830px */
+    @media (min-width: 831px) {
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            padding-left: 9%;
+            padding-right: 9%;
+            z-index: 9999;
+            transition: background-color 0.3s ease;
+            padding-bottom: 30px;
+        }
+    }
+
+    /* Estilos para telas maiores que 850px */
+    @media (min-width: 851px) {
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            padding-left: 10%;
+            padding-right: 10%;
+            z-index: 9999;
+            transition: background-color 0.3s ease;
+            padding-bottom: 30px;
+        }
+    }
+
+    /* Estilos para telas maiores que 870px */
+    @media (min-width: 871px) {
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            padding-left: 11%;
+            padding-right: 11%;
+            z-index: 9999;
+            transition: background-color 0.3s ease;
+            padding-bottom: 30px;
+        }
+    }
+
+    /* Estilos para telas maiores que 890px */
+    @media (min-width: 891px) {
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            padding-left: 12%;
+            padding-right: 12%;
+            z-index: 9999;
+            transition: background-color 0.3s ease;
+            padding-bottom: 30px;
+        }
+    }
+
+    /* Estilos para telas maiores que 910px */
+    @media (min-width: 911px) {
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            padding-left: 12.99%;
+            padding-right: 12.99%;
+            z-index: 9999;
+            transition: background-color 0.3s ease;
+            padding-bottom: 30px;
+        }
+    }
+
+    /* Estilos para telas maiores que 930px */
+    @media (min-width: 931px) {
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            padding-left: 14%;
+            padding-right: 14%;
+            z-index: 9999;
+            transition: background-color 0.3s ease;
+            padding-bottom: 30px;
+        }
+    }
+
+    /* Estilos para telas maiores que 960px */
+    @media (min-width: 961px) {
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            padding-left: 15%;
+            padding-right: 15%;
+            z-index: 9999;
+            transition: background-color 0.3s ease;
+            padding-bottom: 30px;
+        }
+    }
+
+    /* Estilos para telas maiores que 990px */
+    @media (min-width: 992px) {
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            padding-left: 7%;
+            padding-right: 7%;
+            z-index: 9999;
+            transition: background-color 0.3s ease;
+            padding-bottom: 30px;
+        }
+    }
+}
